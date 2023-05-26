@@ -33,7 +33,7 @@ export default function ExamSlug() {
   return (
     <main className="mx-auto max-w-4xl">
       <h1 className="my-6 border-b-2 text-center text-3xl">
-        Some Questions 2023: {exam.title}
+        Some Questions : {exam.title}
       </h1>
       <div dangerouslySetInnerHTML={{ __html: html }} />
       <div >{answer }</div>
